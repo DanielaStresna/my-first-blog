@@ -10,7 +10,9 @@
     </div>
 
     <div>
-    {{ posts }}
+    {% for post in posts %}
+    {{ post }}
+	{% endfor %}
 	</div>
 
     <div>
